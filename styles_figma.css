@@ -1,0 +1,106 @@
+.body {
+    position: absolute;
+    width: 1108px;
+    height: 568px;
+    background: #FFFFFF;
+}
+
+.h1 {
+position: absolute;
+height: 32px;
+left: calc(50% - 397px/2 + 0.5px);
+top: 25px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 32px;
+
+display: flex;
+align-items: stretch;
+text-align: stretch;
+text-transform: uppercase;
+
+color: #353535;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    }
+
+.car_brand,
+.car_model,
+.drive {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+
+.drive {
+display: flex;
+justify-content: flex-start;
+}
+
+.drive_button {
+display: flex;
+flex-direction: row;
+}
+
+.button {
+display: flex;
+flex-direction: row;
+background-color: #FEFEFE;
+border: 1px solid #F9F9F9;
+box-shadow: 0px 4px 10px rgba(158, 152, 152, 0.13);
+border-radius: 8px;
+text-align: center;
+}
+
+.button:hover,
+.offers_button:hover {
+text-decoration: underline;
+}
+
+.offers_button {
+    display: flex;
+    align-self: flex-end;
+    background-color: #FEFEFE;
+    border: 1px solid #F9F9F9;
+    box-shadow: 0px 4px 10px rgba(158, 152, 152, 0.13);
+    border-radius: 8px;
+}
+
+#backpic {
+    position: absolute;
+    width: 1108px;
+    height: 456px;
+    left: 0px;
+    top: 0px;
+    background: url('images/backpic.png'), #DCDCDC;
+    }
+    
+    #red_car {
+    position: absolute;
+    left: 78px;
+    right: 472px;
+    margin-top: 128px;
+    margin-bottom: 192px;
+    }
+    
+    #form_pic {
+        position: absolute;
+        width: 960px;
+        height: 200px;
+        margin-left: 73px;
+        margin-right: 73px;
+        margin-top: 368px;
+    
+        background: #ECEDED;
+        border-radius: 8px;
+    }
